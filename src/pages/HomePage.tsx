@@ -164,12 +164,6 @@ export const HomePage: React.FC<HomePageProps> = ({ onNavigate, onOpenBooking })
               Specialized day-care clinical portals with full diagnostic criteria, advanced laser and laparoscopic options, and doctor consultations.
             </p>
           </div>
-
-          <div className="hidden sm:flex items-center gap-2 text-xs font-mono text-slate-500">
-            <span>6 Conditions</span>
-            <span>•</span>
-            <span>Day-Care Capable</span>
-          </div>
         </div>
 
         {/* 6 Cards Grid (Varicose veins on top, down to Piles last) */}

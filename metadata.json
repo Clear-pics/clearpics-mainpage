@@ -1,0 +1,8 @@
+{
+  "name": "Clearpics Main page",
+  "description": "main page of clearpics app\n",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

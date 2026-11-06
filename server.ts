@@ -192,6 +192,9 @@ app.get('/api/health', (_req, res) => {
   res.json({ status: 'ok', bot: 'YOUR AI', platform: 'ClearPix Healthcare' });
 });
 
+// Serve public directory assets
+app.use(express.static(path.resolve(__dirname, 'public')));
+
 // Vite middleware in dev, static files in production
 async function startServer() {
   if (process.env.NODE_ENV === 'production') {

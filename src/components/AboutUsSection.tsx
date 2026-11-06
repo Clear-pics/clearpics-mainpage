@@ -37,8 +37,8 @@ export const AboutUsSection: React.FC<AboutUsSectionProps> = ({ onKnowMore }) =>
               </h2>
             </div>
 
-            {/* Exact Company Description */}
-            <p className="text-sm sm:text-base md:text-lg text-slate-700 leading-relaxed font-normal">
+            {/* Exact Company Description - Justified Word Document Alignment */}
+            <p className="text-sm sm:text-base md:text-lg text-slate-700 leading-relaxed font-normal text-justify [text-align:justify] [text-justify:inter-word]">
               ClearPix aims to build a sustainable, patient-focused healthcare business through reliable hospital partnerships, efficient coordination, professional service standards, and technology-driven operations. Its core focus is surgical healthcare, including specialist consultations, hospital identification, treatment planning support, cost and financial coordination, pre-operative assistance, and post-operative follow-ups. The platform prioritises understanding patient needs, providing transparent information, respecting individual choices, protecting medical information, and maintaining clear communication. By establishing standard operating procedures, strengthening specialist networks, and expanding services based on demand, ClearPix seeks to improve healthcare accessibility while ensuring that all medical decisions and treatments remain under qualified healthcare professionals.
             </p>
 

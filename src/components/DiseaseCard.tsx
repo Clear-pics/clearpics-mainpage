@@ -139,13 +139,9 @@ export const DiseaseCard: React.FC<DiseaseCardProps> = ({
 
       {/* Card Header & Metadata */}
       <div className="p-4 sm:p-7 space-y-2.5 sm:space-y-4">
-        {/* Unboxed Metadata: Discipline Rule */}
-        <div className="flex items-center gap-1.5 sm:gap-2 text-xs sm:text-sm text-slate-600 font-semibold">
-          <span className="text-teal-700 font-bold">{disease.specialty}</span>
-          <span aria-hidden="true">·</span>
-          <span>{disease.stats[0]?.value}</span>
-          <span aria-hidden="true">·</span>
-          <span>Daycare</span>
+        {/* Clean Specialty Tag */}
+        <div className="flex items-center text-xs sm:text-sm text-teal-700 font-bold">
+          <span>{disease.specialty}</span>
         </div>
 
         {/* Primary Title */}

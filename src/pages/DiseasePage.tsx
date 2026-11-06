@@ -64,13 +64,9 @@ export const DiseasePage: React.FC<DiseasePageProps> = ({
         <div className="bg-white rounded-3xl border border-slate-200/90 p-6 sm:p-14 shadow-sm relative overflow-hidden">
           
           <div className="max-w-3xl space-y-5">
-            {/* Unboxed Metadata: Discipline rule */}
-            <div className="flex items-center gap-2 text-xs sm:text-sm font-bold uppercase tracking-wider text-teal-700">
+            {/* Clean Specialty Tag */}
+            <div className="flex items-center text-xs sm:text-sm font-bold uppercase tracking-wider text-teal-700">
               <span>{disease.specialty}</span>
-              <span aria-hidden="true">·</span>
-              <span>{disease.heroKicker}</span>
-              <span aria-hidden="true">·</span>
-              <span>Day-Care Laser Protocol</span>
             </div>
 
             <h1 className="text-3xl sm:text-5xl font-extrabold text-slate-900 tracking-tight leading-tight text-balance">

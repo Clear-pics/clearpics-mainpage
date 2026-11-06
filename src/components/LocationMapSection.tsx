@@ -27,7 +27,7 @@ export const LocationMapSection: React.FC = () => {
             <h2 className="text-2xl sm:text-4xl font-extrabold text-slate-900 tracking-tight">
               Our Location on Google Maps
             </h2>
-            <p className="text-sm sm:text-base text-slate-600 mt-1 leading-relaxed">
+            <p className="text-sm sm:text-base text-slate-600 mt-1 leading-relaxed text-justify [text-align:justify] [text-justify:inter-word]">
               ClearPix coordinates specialized daycare surgical procedures and consultations at our headquarters and partner facilities.
             </p>
           </div>
@@ -135,7 +135,7 @@ export const LocationMapSection: React.FC = () => {
                     <Building2 className="w-4 h-4" />
                     <span>Specialized Surgical Care Coordination</span>
                   </div>
-                  <p className="text-[11px] text-slate-400 leading-relaxed">
+                  <p className="text-[11px] text-slate-400 leading-relaxed text-justify [text-align:justify] [text-justify:inter-word]">
                     Consultations, diagnostics, pre-authorization, and post-op follow-ups across partner network centres.
                   </p>
                 </div>

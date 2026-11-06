@@ -77,7 +77,7 @@ export const DiseasePage: React.FC<DiseasePageProps> = ({
               {disease.headline}
             </h1>
 
-            <p className="text-sm sm:text-base md:text-lg text-slate-700 leading-relaxed font-normal">
+            <p className="text-sm sm:text-base md:text-lg text-slate-700 leading-relaxed font-normal text-justify [text-align:justify] [text-justify:inter-word]">
               {disease.subheadline}
             </p>
 
@@ -195,7 +195,7 @@ export const DiseasePage: React.FC<DiseasePageProps> = ({
             <h2 className="text-2xl sm:text-3xl font-bold text-slate-900 tracking-tight">
               Understanding {disease.name}
             </h2>
-            <p className="text-xs text-slate-600 leading-relaxed">
+            <p className="text-xs text-slate-600 leading-relaxed text-justify [text-align:justify] [text-justify:inter-word]">
               {disease.summary}
             </p>
 

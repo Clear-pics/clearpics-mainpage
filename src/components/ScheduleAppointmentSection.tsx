@@ -88,7 +88,7 @@ export const ScheduleAppointmentSection: React.FC<ScheduleAppointmentSectionProp
             <h2 className="text-2xl sm:text-4xl font-extrabold text-slate-900 tracking-tight">
               Schedule Your Appointment
             </h2>
-            <p className="text-sm sm:text-base text-slate-600 mt-1.5 sm:mt-2 leading-relaxed">
+            <p className="text-sm sm:text-base text-slate-600 mt-1.5 sm:mt-2 leading-relaxed text-justify [text-align:justify] [text-justify:inter-word]">
               Book an in-person clinical consultation, video teleconsult, or secondary opinion with our specialist medical network.
             </p>
           </div>

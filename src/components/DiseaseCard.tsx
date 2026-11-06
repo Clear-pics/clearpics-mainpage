@@ -166,7 +166,7 @@ export const DiseaseCard: React.FC<DiseaseCardProps> = ({
         </div>
 
         {/* Summary Description */}
-        <p className="text-xs sm:text-sm text-slate-700 leading-relaxed line-clamp-2 sm:line-clamp-3">
+        <p className="text-xs sm:text-sm text-slate-700 leading-relaxed line-clamp-2 sm:line-clamp-3 text-justify [text-align:justify] [text-justify:inter-word]">
           {disease.summary}
         </p>
 

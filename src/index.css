@@ -41,3 +41,10 @@
 .animate-marquee-rtl.is-paused {
   animation-play-state: paused;
 }
+
+/* Professional Word-document style justified text alignment */
+.text-justify-doc {
+  text-align: justify;
+  text-justify: inter-word;
+  hyphens: auto;
+}

@@ -160,7 +160,7 @@ export const HomePage: React.FC<HomePageProps> = ({ onNavigate, onOpenBooking })
             <h2 className="text-xl sm:text-3xl font-bold text-slate-900 tracking-tight">
               Surgical Specialties
             </h2>
-            <p className="text-[11px] sm:text-sm text-slate-600 mt-0.5 sm:mt-1 max-w-xl">
+            <p className="text-[11px] sm:text-sm text-slate-600 mt-0.5 sm:mt-1 max-w-xl text-justify [text-align:justify] [text-justify:inter-word]">
               Specialized day-care clinical portals with full diagnostic criteria, advanced laser and laparoscopic options, and doctor consultations.
             </p>
           </div>

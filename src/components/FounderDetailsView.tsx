@@ -121,7 +121,7 @@ export const FounderDetailsView: React.FC<FounderDetailsViewProps> = ({
             Building a Sustainable, Patient-Centric Healthcare Business
           </h1>
 
-          <p className="text-sm sm:text-base md:text-lg text-slate-200 leading-relaxed font-normal">
+          <p className="text-sm sm:text-base md:text-lg text-slate-200 leading-relaxed font-normal text-justify [text-align:justify] [text-justify:inter-word]">
             At ClearPix, we connect patients to world-class surgical expertise, dependable hospital networks, and end-to-end clinical care coordination with 100% transparency.
           </p>
 
@@ -161,7 +161,7 @@ export const FounderDetailsView: React.FC<FounderDetailsViewProps> = ({
           </div>
         </div>
 
-        <div className="space-y-4 text-sm sm:text-base text-slate-700 leading-relaxed">
+        <div className="space-y-4 text-sm sm:text-base text-slate-700 leading-relaxed text-justify [text-align:justify] [text-justify:inter-word]">
           <p className="font-medium text-slate-900">
             A healthcare company must balance patient service with operational discipline and financial sustainability.
           </p>
@@ -203,7 +203,7 @@ export const FounderDetailsView: React.FC<FounderDetailsViewProps> = ({
           </div>
         </div>
 
-        <div className="space-y-4 text-sm sm:text-base text-slate-700 leading-relaxed">
+        <div className="space-y-4 text-sm sm:text-base text-slate-700 leading-relaxed text-justify [text-align:justify] [text-justify:inter-word]">
           <p>
             Every patient has a different requirement. Some patients know exactly which specialist they want to consult, while others are unsure about where to begin.
           </p>
@@ -212,12 +212,12 @@ export const FounderDetailsView: React.FC<FounderDetailsViewProps> = ({
             We want to make it easier for patients to understand their available options without creating unnecessary pressure or confusion.
           </p>
 
-          <p className="font-semibold text-slate-900 pt-2">
+          <p className="font-semibold text-slate-900 pt-2 text-left">
             Our approach is guided by a few practical principles:
           </p>
 
           {/* 8 Practical Principles Grid */}
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-3.5 pt-1">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-3.5 pt-1 text-left">
             {patientPrinciples.map((principle, idx) => (
               <div
                 key={idx}
@@ -251,7 +251,7 @@ export const FounderDetailsView: React.FC<FounderDetailsViewProps> = ({
           </div>
         </div>
 
-        <div className="space-y-3 text-sm sm:text-base text-slate-700 leading-relaxed">
+        <div className="space-y-3 text-sm sm:text-base text-slate-700 leading-relaxed text-justify [text-align:justify] [text-justify:inter-word]">
           <p className="text-base sm:text-lg font-semibold text-slate-900">
             Our principal focus is surgical healthcare and the services surrounding it.
           </p>
@@ -276,7 +276,7 @@ export const FounderDetailsView: React.FC<FounderDetailsViewProps> = ({
                   <h3 className="text-base font-bold text-slate-950 tracking-tight leading-snug">
                     {item.title}
                   </h3>
-                  <p className="text-xs sm:text-sm text-slate-600 leading-relaxed">
+                  <p className="text-xs sm:text-sm text-slate-600 leading-relaxed text-justify [text-align:justify] [text-justify:inter-word]">
                     {item.description}
                   </p>
                 </div>
@@ -288,7 +288,7 @@ export const FounderDetailsView: React.FC<FounderDetailsViewProps> = ({
         {/* Clinical Disclaimer Callout */}
         <div className="p-5 sm:p-6 rounded-2xl bg-amber-50/80 border border-amber-200/90 text-amber-950 flex items-start gap-3.5">
           <ShieldCheck className="w-6 h-6 text-amber-600 shrink-0 mt-0.5" />
-          <p className="text-xs sm:text-sm leading-relaxed font-medium">
+          <p className="text-xs sm:text-sm leading-relaxed font-medium text-justify [text-align:justify] [text-justify:inter-word]">
             <strong>Important Clinical Responsibility Note:</strong> Our role is to support the process and improve coordination. Medical decisions, surgical recommendations, and clinical treatment remain the responsibility of qualified healthcare professionals.
           </p>
         </div>

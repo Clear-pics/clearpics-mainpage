@@ -53,13 +53,13 @@ export const HomePage: React.FC<HomePageProps> = ({ onNavigate, onOpenBooking })
          ========================================================================= */}
       <section className="relative pt-4 sm:pt-14 px-3 sm:px-6 lg:px-8 max-w-7xl mx-auto text-center">
         <div 
-          className="relative rounded-2xl sm:rounded-3xl border border-teal-500/30 py-10 sm:py-28 px-4 sm:px-12 shadow-2xl overflow-hidden bg-cover bg-center bg-no-repeat"
-          style={{ backgroundImage: `url('/images/doctor_portal_bg.jpg'), url('https://i.pinimg.com/736x/43/82/63/43826303f06f149fa2d63d1e29815d56.jpg')` }}
+          className="relative rounded-2xl sm:rounded-3xl border border-slate-700/20 py-10 sm:py-28 px-4 sm:px-12 shadow-2xl overflow-hidden bg-cover bg-[center_25%] bg-no-repeat"
+          style={{ backgroundImage: `url('/images/pexels_hero_doctors.jpg'), url('/images/male_and_female_doctor_bg.jpg')` }}
         >
           
-          {/* Balanced gradient overlay so 3D stethoscope, heart, microscope, and pills pop while text stays crisp */}
-          <div className="absolute inset-0 bg-slate-950/30 pointer-events-none" />
-          <div className="absolute inset-0 bg-gradient-to-t from-slate-950/75 via-slate-950/15 to-slate-950/35 pointer-events-none" />
+          {/* Subtle balanced dark tint so doctors in background are clearly visible while text stays sharp */}
+          <div className="absolute inset-0 bg-slate-950/45 pointer-events-none" />
+          <div className="absolute inset-0 bg-gradient-to-t from-slate-950/80 via-slate-950/30 to-slate-950/50 pointer-events-none" />
 
           <div className="relative z-10 max-w-4xl mx-auto space-y-3.5 sm:space-y-6">
             
